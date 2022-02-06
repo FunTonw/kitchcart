@@ -1,0 +1,9 @@
+使用 HTML CSS Javascript JQuery
+技巧
+Bootstrap5 切版
+RWD (iphoneX,ipad, ipad pro, 網頁)
+swiper (banner) 輪播,適合banner使用
+slick (product,featured,user, blog, brands) 輪播,適合img,card等物件輪播
+lightbox (blog) 燈箱
+animate (product, brands)
+mouseenter, mouseleave, e.offset (product) 判斷滑鼠滑入方向

@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kitchcart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="fontawesome/fontawesome-free-5.15.4-web/fontawesomecss/all.css">  <!--fontawesome-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> <!-- fonts-->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+</head>
+<body>
+  <!-- 參考https://www.templatemonsterpreview.com/demo/205165.html?_gl=1*25l7xs*_ga*MjE1MzYwNTU3LjE2MzI3NDY5ODA.*_ga_FTPYEGT5LY*MTYzNjA5ODkyOC40Ny4xLjE2MzYwOTkxODQuNDc.&_ga=2.106324739.1644029694.1636098929-215360557.1632746980 -->
+    <main>
+
+        <header>
+            <div class="header bg-dark p-2 p-lg-4 d-flex align-items-center justify-content-between">
+                        <div class="logo d-flex">
+                    <button class="navbar-toggler d-lg-none" data-bs-toggle="collapse" data-bs-target="#titlenavbar" aria-controls="titlenavbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars text-white"></i> 
+                    </button>
+                      <a href="#">
+                          <img src="image/logo.png" alt="">
+                          <h1 class="logo-title text-white">kitchcart</h1>
+                      </a>
+                        </div>
+                        <div class="d-flex w-100 justify-content-end justify-content-lg-between">
+                          <div class="search-icon icon-link d-flex  me-2">
+                            <a href="#" class="search-active  d-block d-lg-none">
+                              <i class="fas fa-search text-white"></i>
+                            </a>
+                          </div>
+                          <div class="d-none d-lg-block w-50">
+                            <form action="search" class="d-flex search-from">
+                              <input class="form-control" type="search"  placeholder="Search" aria-label="Search">
+                              <button type="submit" class="btn btn-success">
+                                <i class="fas fa-search text-white"></i>
+                              </button>
+                            </form>
+                          </div>
+                          <div class="icon-link me-2">
+                            <a href="#" class=" d-flex align-items-center">
+                                <i class="fas fa-user text-white"></i>
+                                <div class="icon-text m-2 d-none d-lg-block">
+                                  <p class="icontext1">My Account</p>
+                                  <p class="icontext2 m-0">Login - Register</p>
+                                </div>
+                            </a>
+                          </div>
+                          <div class="icon-link me-2">
+                            <a href="#" class="d-flex align-items-center">
+                                <i class="fas fa-shopping-cart text-white"></i>
+                                <div class="icon-text m-2 d-none d-lg-block">
+                                  <p class="icontext1">My Cart</p>
+                                  <p class="icontext2 m-0">$0.00</p>
+                                </div>
+                            </a>
+                          </div>
+                        </div>
+            </div>
+        </header>
+        <nav class="navbar navbar-expand-lg p-0 ">
+            <div class="navbar-fluid">
+              <div class="collapse navbar-collapse bg-dark" id="titlenavbar">
+                <a class="navbar-brand" href="#">Meun</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                    <ul class="dropdown-menu border-0">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                    <ul class="dropdown-menu border-0">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <div class="container-fluid p-0">
+            <div class="banner mb-4">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img class="banner-img" src="image/banner/main-banner-1-1903x585.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/banner/main-banner-2-1903x585.jpg" alt="" class="banner-img">
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <div class="subbanner container">
+              <div class="subbanner-container d-sm-flex mx-2">
+                <div class="subbanner-frist subbanner-content mb-4 m-sm-3">
+                  <img src="image/sub-banner-1.jpg" alt="">
+                  <div class="subbanner-text d-flex align-items-start flex-column">
+                    <p class="bg-success text-white">10% Discount</p>
+                    <p >Oster Copper infused</p>
+                    <a href="#">shop now</a>
+                  </div>
+                </div>
+                <div class="subbanner-second subbanner-content mb-4 m-sm-3">
+                  <img src="image/sub-banner-2.jpg" alt="">
+                  <div class="subbanner-text d-flex align-items-start flex-column">
+                    <p class="bg-success text-white">10% Discount</p>
+                    <p>Oster Copper infused</p>
+                    <a href="#">shop now</a>
+                  </div>
+                </div>
+                <div class="subbanner-third subbanner-content mb-4 m-sm-3 ">
+                  <img src="image/sub-banner-3.jpg" alt="">
+                  <div class="subbanner-text d-flex align-items-start flex-column">
+                    <p class="bg-success text-white">10% Discount</p>
+                    <p>Oster Copper infused</p>
+                    <a href="#">shop now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product container">
+              <div class="product-nav d-flex flex-column flex-lg-row justify-content-between m-3">
+                <h2 class="main-h2">Product</h2>
+                <div class="d-flex justify-content-around">
+                  <ul class="d-flex p-0">
+                    <li class="mx-2"><a href="#">New Arrival</a></li>
+                    <li class="mx-2"><a href="#">Best Sellers</a></li>
+                    <li class="mx-2"><a href="#">Special</a></li>
+                  </ul>
+                  <div class="arrowLocation"></div>
+                </div>
+              </div>
+             
+              <div class="product-swiper">
+                  <div class="product-cardgroup ">
+                    <div class="product-card m-3">
+                      <div class="main-card">
+                        <div class="card">
+                          <div class="card-icon">
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-heart"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-eye"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="fas fa-spinner"></i>
+                            </button>
+                            
+                          </div>
+                          <div class="imgrep">
+                            <div class="rep"></div>
+                            <img class="imgbox animate__animated" src="image/porduct/18-216x230.jpg" alt="">
+                            <img class="animate__animated" src="image/porduct/02-216x230.jpg" alt="">
+                          </div>
+                          <div class="card-body">
+                            <div class="star mt-2">
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="far fa-star" style="color: slategray;"></i>
+                            </div>
+                            <a href="#" class="link-success product-name d-block mt-2">Inalsa Centrifugal Juicermesh</a>
+                            <p class="product-cost mt-2">$114.50</p>
+                            <a href="#" class="btn btn-product w-100 p-2">ADD TO CART</a>
+                          </div>
+                        </div>
+                        
+                      </div>
+    
+                    </div>
+                    <div class="product-card m-3">
+                      <div class="main-card">
+                        <div class="card">
+                          <div class="card-icon">
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-heart"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-eye"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="fas fa-spinner"></i>
+                            </button>
+                            
+                          </div>
+                          <div class="imgrep">
+                            <div class="rep"></div>
+                            <img class="imgbox animate__animated" src="image/porduct/16-216x230.jpg" alt="">
+                            <img class="animate__animated" src="image/porduct/01-216x230.jpg" alt="">
+                          </div>
+                          <div class="card-body">
+                            <div class="star mt-2">
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="far fa-star" style="color: slategray;"></i>
+                            </div>
+                            <a href="#" class="link-success product-name d-block mt-2">Inalsa Centrifugal Juicermesh</a>
+                            <p class="product-cost mt-2">$114.50</p>
+                            <a href="#" class="btn btn-product w-100 p-2">ADD TO CART</a>
+                          </div>
+                        </div>
+                        
+                      </div>
+    
+                    </div>
+                  </div>
+                  <div class="product-cardgroup ">
+                    <div class="product-card m-3">
+                      <div class="main-card">
+                        <div class="card">
+                          <div class="card-icon">
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-heart"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-eye"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="fas fa-spinner"></i>
+                            </button>
+                            
+                          </div>
+                          <div class="imgrep">
+                            <div class="rep"></div>
+                            <img class="imgbox animate__animated" src="image/porduct/03-216x230.jpg" alt="">
+                            <img class="animate__animated" src="image/porduct/04-216x230.jpg" alt="">
+                          </div>
+                          <div class="card-body">
+                            <div class="star mt-2">
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="far fa-star" style="color: slategray;"></i>
+                            </div>
+                            <a href="#" class="link-success product-name d-block mt-2">Inalsa Centrifugal Juicermesh</a>
+                            <p class="product-cost mt-2">$114.50</p>
+                            <a href="#" class="btn btn-product w-100 p-2">ADD TO CART</a>
+                          </div>
+                        </div>
+                        
+                      </div>
+    
+                    </div>
+                    <div class="product-card m-3">
+                      <div class="main-card">
+                        <div class="card">
+                          <div class="card-icon">
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-heart"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-eye"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="fas fa-spinner"></i>
+                            </button>
+                            
+                          </div>
+                          <div class="imgrep">
+                            <div class="rep"></div>
+                            <img class="imgbox animate__animated" src="image/porduct/07-216x230.jpg" alt="">
+                            <img class="animate__animated" src="image/porduct/08-216x230.jpg" alt="">
+                          </div>
+                          <div class="card-body">
+                            <div class="star mt-2">
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="far fa-star" style="color: slategray;"></i>
+                            </div>
+                            <a href="#" class="link-success product-name d-block mt-2">Inalsa Centrifugal Juicermesh</a>
+                            <p class="product-cost mt-2">$114.50</p>
+                            <a href="#" class="btn btn-product w-100 p-2">ADD TO CART</a>
+                          </div>
+                        </div>
+                        
+                      </div>
+    
+                    </div>
+                  </div>
+                  <div class="product-cardgroup ">
+                    <div class="product-card m-3">
+                      <div class="main-card">
+                        <div class="card">
+                          <div class="card-icon">
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-heart"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-eye"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="fas fa-spinner"></i>
+                            </button>
+                            
+                          </div>
+                          <div class="imgrep">
+                            <div class="rep"></div>
+                            <img class="imgbox animate__animated" src="image/porduct/05-216x230.jpg" alt="">
+                            <img class="animate__animated" src="image/porduct/06-216x230.jpg" alt="">
+                          </div>
+                          <div class="card-body">
+                            <div class="star mt-2">
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="far fa-star" style="color: slategray;"></i>
+                            </div>
+                            <a href="#" class="link-success product-name d-block mt-2">Inalsa Centrifugal Juicermesh</a>
+                            <p class="product-cost mt-2">$114.50</p>
+                            <a href="#" class="btn btn-product w-100 p-2">ADD TO CART</a>
+                          </div>
+                        </div>
+                        
+                      </div>
+    
+                    </div>
+                    <div class="product-card m-3">
+                      <div class="main-card">
+                        <div class="card">
+                          <div class="card-icon">
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-heart"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-eye"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="fas fa-spinner"></i>
+                            </button>
+                            
+                          </div>
+                          <div class="imgrep">
+                            <div class="rep"></div>
+                            <img class="imgbox animate__animated" src="image/porduct/11-216x230.jpg" alt="">
+                            <img class="animate__animated" src="image/porduct/07-216x230.jpg" alt="">
+                          </div>
+                          <div class="card-body">
+                            <div class="star mt-2">
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="far fa-star" style="color: slategray;"></i>
+                            </div>
+                            <a href="#" class="link-success product-name d-block mt-2">Inalsa Centrifugal Juicermesh</a>
+                            <p class="product-cost mt-2">$114.50</p>
+                            <a href="#" class="btn btn-product w-100 p-2">ADD TO CART</a>
+                          </div>
+                        </div>
+                        
+                      </div>
+    
+                    </div>
+                  </div>
+                  <div class="product-cardgroup ">
+                    <div class="product-card m-3">
+                      <div class="main-card">
+                        <div class="card">
+                          <div class="card-icon">
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-heart"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-eye"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="fas fa-spinner"></i>
+                            </button>
+                            
+                          </div>
+                          <div class="imgrep">
+                            <div class="rep"></div>
+                            <img class="imgbox animate__animated" src="image/porduct/07-216x230.jpg" alt="">
+                            <img class="animate__animated" src="image/porduct/08-216x230.jpg" alt="">
+                          </div>
+                          <div class="card-body">
+                            <div class="star mt-2">
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="far fa-star" style="color: slategray;"></i>
+                            </div>
+                            <a href="#" class="link-success product-name d-block mt-2">Inalsa Centrifugal Juicermesh</a>
+                            <p class="product-cost mt-2">$114.50</p>
+                            <a href="#" class="btn btn-product w-100 p-2">ADD TO CART</a>
+                          </div>
+                        </div>
+                        
+                      </div>
+    
+                    </div>
+                    <div class="product-card m-3">
+                      <div class="main-card">
+                        <div class="card">
+                          <div class="card-icon">
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-heart"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-eye"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="fas fa-spinner"></i>
+                            </button>
+                            
+                          </div>
+                          <div class="imgrep">
+                            <div class="rep"></div>
+                            <img class="imgbox animate__animated" src="image/porduct/13-216x230.jpg" alt="">
+                            <img class="animate__animated" src="image/porduct/04-216x230.jpg" alt="">
+                          </div>
+                          <div class="card-body">
+                            <div class="star mt-2">
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="far fa-star" style="color: slategray;"></i>
+                            </div>
+                            <a href="#" class="link-success product-name d-block mt-2">Inalsa Centrifugal Juicermesh</a>
+                            <p class="product-cost mt-2">$114.50</p>
+                            <a href="#" class="btn btn-product w-100 p-2">ADD TO CART</a>
+                          </div>
+                        </div>
+                        
+                      </div>
+    
+                    </div>
+                  </div>
+                  <div class="product-cardgroup ">
+                    <div class="product-card m-3">
+                      <div class="main-card">
+                        <div class="card">
+                          <div class="card-icon">
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-heart"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-eye"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="fas fa-spinner"></i>
+                            </button>
+                            
+                          </div>
+                          <div class="imgrep">
+                            <div class="rep"></div>
+                            <img class="imgbox animate__animated" src="image/porduct/12-216x230.jpg" alt="">
+                            <img class="animate__animated" src="image/porduct/11-216x230.jpg" alt="">
+                          </div>
+                          <div class="card-body">
+                            <div class="star mt-2">
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="far fa-star" style="color: slategray;"></i>
+                            </div>
+                            <a href="#" class="link-success product-name d-block mt-2">Inalsa Centrifugal Juicermesh</a>
+                            <p class="product-cost mt-2">$114.50</p>
+                            <a href="#" class="btn btn-product w-100 p-2">ADD TO CART</a>
+                          </div>
+                        </div>
+                        
+                      </div>
+    
+                    </div>
+                    <div class="product-card m-3">
+                      <div class="main-card">
+                        <div class="card">
+                          <div class="card-icon">
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-heart"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-eye"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="fas fa-spinner"></i>
+                            </button>
+                            
+                          </div>
+                          <div class="imgrep">
+                            <div class="rep"></div>
+                            <img class="imgbox animate__animated" src="image/porduct/18-216x230.jpg" alt="">
+                            <img class="animate__animated" src="image/porduct/12-216x230.jpg" alt="">
+                          </div>
+                          <div class="card-body">
+                            <div class="star mt-2">
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="far fa-star" style="color: slategray;"></i>
+                            </div>
+                            <a href="#" class="link-success product-name d-block mt-2">Inalsa Centrifugal Juicermesh</a>
+                            <p class="product-cost mt-2">$114.50</p>
+                            <a href="#" class="btn btn-product w-100 p-2">ADD TO CART</a>
+                          </div>
+                        </div>
+                        
+                      </div>
+    
+                    </div>
+                  </div>
+                  <div class="product-cardgroup ">
+                    <div class="product-card m-3">
+                      <div class="main-card">
+                        <div class="card">
+                          <div class="card-icon">
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-heart"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-eye"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="fas fa-spinner"></i>
+                            </button>
+                            
+                          </div>
+                          <div class="imgrep">
+                            <div class="rep"></div>
+                            <img class="imgbox animate__animated" src="image/porduct/13-216x230.jpg" alt="">
+                            <img class="animate__animated" src="image/porduct/15-216x230.jpg" alt="">
+                          </div>
+                          <div class="card-body">
+                            <div class="star mt-2">
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="far fa-star" style="color: slategray;"></i>
+                            </div>
+                            <a href="#" class="link-success product-name d-block mt-2">Inalsa Centrifugal Juicermesh</a>
+                            <p class="product-cost mt-2">$114.50</p>
+                            <a href="#" class="btn btn-product w-100 p-2">ADD TO CART</a>
+                          </div>
+                        </div>
+                        
+                      </div>
+    
+                    </div>
+                    <div class="product-card m-3">
+                      <div class="main-card">
+                        <div class="card">
+                          <div class="card-icon">
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-heart"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-eye"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="fas fa-spinner"></i>
+                            </button>
+                            
+                          </div>
+                          <div class="imgrep">
+                            <div class="rep"></div>
+                            <img class="imgbox animate__animated" src="image/porduct/05-216x230.jpg" alt="">
+                            <img class="animate__animated" src="image/porduct/03-216x230.jpg" alt="">
+                          </div>
+                          <div class="card-body">
+                            <div class="star mt-2">
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="far fa-star" style="color: slategray;"></i>
+                            </div>
+                            <a href="#" class="link-success product-name d-block mt-2">Inalsa Centrifugal Juicermesh</a>
+                            <p class="product-cost mt-2">$114.50</p>
+                            <a href="#" class="btn btn-product w-100 p-2">ADD TO CART</a>
+                          </div>
+                        </div>
+                        
+                      </div>
+    
+                    </div>
+                  </div>
+                  <div class="product-cardgroup ">
+                    <div class="product-card m-3">
+                      <div class="main-card">
+                        <div class="card">
+                          <div class="card-icon">
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-heart"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-eye"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="fas fa-spinner"></i>
+                            </button>
+                            
+                          </div>
+                          <div class="imgrep">
+                            <div class="rep"></div>
+                            <img class="imgbox animate__animated" src="image/porduct/16-216x230.jpg" alt="">
+                            <img class="animate__animated" src="image/porduct/18-216x230.jpg" alt="">
+                          </div>
+                          <div class="card-body">
+                            <div class="star mt-2">
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="far fa-star" style="color: slategray;"></i>
+                            </div>
+                            <a href="#" class="link-success product-name d-block mt-2">Inalsa Centrifugal Juicermesh</a>
+                            <p class="product-cost mt-2">$114.50</p>
+                            <a href="#" class="btn btn-product w-100 p-2">ADD TO CART</a>
+                          </div>
+                        </div>
+                        
+                      </div>
+    
+                    </div>
+                    <div class="product-card m-3">
+                      <div class="main-card">
+                        <div class="card">
+                          <div class="card-icon">
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-heart"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-eye"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="fas fa-spinner"></i>
+                            </button>
+                            
+                          </div>
+                          <div class="imgrep">
+                            <div class="rep"></div>
+                            <img class="imgbox animate__animated" src="image/porduct/12-216x230.jpg" alt="">
+                            <img class="animate__animated" src="image/porduct/06-216x230.jpg" alt="">
+                          </div>
+                          <div class="card-body">
+                            <div class="star mt-2">
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="far fa-star" style="color: slategray;"></i>
+                            </div>
+                            <a href="#" class="link-success product-name d-block mt-2">Inalsa Centrifugal Juicermesh</a>
+                            <p class="product-cost mt-2">$114.50</p>
+                            <a href="#" class="btn btn-product w-100 p-2">ADD TO CART</a>
+                          </div>
+                        </div>
+                        
+                      </div>
+    
+                    </div>
+                  </div>
+                  <div class="product-cardgroup ">
+                    <div class="product-card m-3">
+                      <div class="main-card">
+                        <div class="card">
+                          <div class="card-icon">
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-heart"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="far fa-eye"></i>
+                            </button>
+                            <button href="#" type="button" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                              <i class="fas fa-spinner"></i>
+                            </button>
+                            
+                          </div>
+                          <div class="imgrep">
+                            <div class="rep"></div>
+                            <img class="imgbox animate__animated" src="image/porduct/16-216x230.jpg" alt="">
+                            <img class="animate__animated" src="image/porduct/18-216x230.jpg" alt="">
+                          </div>
+                          <div class="card-body">
+                            <div class="star mt-2">
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="fas fa-star" style="color: yellow;"></i>
+                              <i class="far fa-star" style="color: slategray;"></i>
+                            </div>
+                            <a href="#" class="link-success product-name d-block mt-2">Inalsa Centrifugal Juicermesh</a>
+                            <p class="product-cost mt-2">$114.50</p>
+                            <a href="#" class="btn btn-product w-100 p-2">ADD TO CART</a>
+                          </div>
+                        </div>
+                        
+                      </div>
+    
+                    </div>
+                  </div>
+
+              </div>
+            </div>
+            <div class="featured-category">
+              <div class="featured-category-content container">
+                <div class="p-2">
+                  <div class="featured-category-box">
+                    <img src="image/categorylist-img1.jpg">
+                    <div class="imgback"></div>
+                    <p class="text-center text-white">COFFEE MACHINE</p>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="featured-category-box">
+                    <img src="image/categorylist-img2.jpg">
+                    <div class="imgback"></div>
+                    <p class="text-center text-white">COFFEE MACHINE</p>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="featured-category-box">
+                    <img src="image/categorylist-img3.jpg">
+                    <div class="imgback"></div>
+                    <p class="text-center text-white">COFFEE MACHINE</p>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="featured-category-box">
+                    <img src="image/categorylist-img4.jpg">
+                    <div class="imgback"></div>
+                    <p class="text-center text-white">COFFEE MACHINE</p>
+                  </div>
+                </div>
+                <div class="p-2">
+                  <div class="featured-category-box">
+                    <img src="image/categorylist-img5.jpg">
+                    <div class="imgback"></div>
+                    <p class="text-center text-white">COFFEE MACHINE</p>
+                  </div>
+                </div>
+               
+              </div>
+            </div>
+            <div class="card-banner container">
+              <div class="card-banner-content container my-5">
+                <div class="row">
+                  <div class="col-12 col-lg-6 mb-3 p-lg-0 pe-lg-3">
+                    <div class="card-banner-box">
+                      <img src="image/cms-banner-1.jpg" alt="">
+                      <div class="card-banner-text">
+                        <p class="bg-success text-white text-center p-1 m-1">
+                          Flat 25% Discount
+                        </p>
+                        <p class="m-1">Kitchenaid Stand
+                          Mixer
+                        </p>
+                        <a href="#" class="m-1">SHOP NOW</a>
+                      </div>
+    
+                    </div>
+                  </div>
+                 <div class="col-12 col-lg-6 p-lg-0 ps-lg-3">
+                  <div class="card-banner-box">
+                    <img src="image/cms-banner-2.jpg" alt="">
+                    <div class="card-banner-text">
+                      <p class="bg-success text-white text-center p-1 m-1">
+                        Flat 25% Discount
+                      </p>
+                      <p class="m-1">Kitchenaid Stand
+                        Mixer
+                      </p>
+                      <a href="#" class="m-1">SHOP NOW</a>
+                    </div>
+                  </div>
+                 </div> 
+              </div>
+                <!-- <div class="col-12 col-lg-6"></div> -->
+
+              </div>
+            </div>
+            <div class="user bg-info container">
+              <div class="user-slice p-1 p-sm-5 ">
+                <div class="user-content ">
+                  <div class="d-flex flex-column flex-sm-row align-items-center py-4">
+                    <div>
+                      <div class="user-pic">
+                        <img src="image/user/user1.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="user-icon m-4">
+                      <i class="fas fa-copy fa-4x text-success"></i>
+                    </div>
+                    <div class="user-comment text-center">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown.</p>
+                        <b class="user-name">Mark Jofferson</b> 
+                    </div>
+                  </div>
+                </div>
+                <div class="user-content">
+                  <div class="d-flex flex-column flex-sm-row align-items-center py-4">
+                    <div>
+                      <div class="user-pic">
+                        <img src="image/user/user2.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="user-icon m-4">
+                      <i class="fas fa-copy fa-4x text-success"></i>
+                    </div>
+                    <div class="user-comment text-center">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown.</p>
+                        <b class="user-name">Mark Jofferson</b> 
+                    </div>
+                  </div>
+                </div>
+                <div class="user-content">
+                  <div class="d-flex flex-column flex-sm-row align-items-center py-4">
+                    <div>
+                      <div class="user-pic">
+                        <img src="image/user/user3.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="user-icon m-4">
+                      <i class="fas fa-copy fa-4x text-success"></i>
+                    </div>
+                    <div class="user-comment text-center">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown.</p>
+                        <b class="user-name">Mark Jofferson</b> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="user-arrow text-center"></div>
+            </div>
+            <div class="blog container p-0">
+              <div class="d-flex align-items-center justify-content-between m-3">
+                <h2 class="main-h2">LATEST BLOG</h2>
+                <div class="blog-arrow"></div>
+              </div>
+              <div class="blog-slick">
+                <div class="blog-content">
+                  <div class="card rounded m-3">
+                    <div class="blog-img">
+                      <img src="image/letest_blog/blog-1-900x568.jpg" alt="">
+                      <div class="blog-icon d-flex align-items-center justify-content-center">
+                        <a href="image/letest_blog/blog-1-900x568.jpg" data-lightbox="blog" title="click to view full Image">
+                          <i class="fas fa-search-plus fa-1x"></i>
+                        </a>
+                        <a href="#">
+                          <i class="fas fa-link fa-1x"></i>
+                        </a>    
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="card-title">
+                        <a href="#">CardTitle</a>
+                        </div>
+                      <div class="cardtext">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                      </div>
+                    </div>
+  
+                  </div>
+                  
+                </div>
+                <div class="blog-content">
+                  <div class="card rounded m-3">
+                    <div class="blog-img">
+                      <img src="image/letest_blog/blog-4-900x568.jpg" alt="">
+                      <div class="blog-icon d-flex align-items-center justify-content-center">
+                        <a href="image/letest_blog/blog-4-900x568.jpg" data-lightbox="blog" title="click to view full Image">
+                          <i class="fas fa-search-plus fa-1x"></i>
+                        </a>
+                        <a href="#">
+                          <i class="fas fa-link fa-1x"></i>
+                        </a>    
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="card-title">
+                        <a href="#">CardTitle</a>
+                        </div>
+                      <div class="cardtext">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                      </div>
+                    </div>
+  
+                  </div>
+                  
+                </div>
+                <div class="blog-content">
+                  <div class="card rounded m-3">
+                    <div class="blog-img">
+                      <img src="image/letest_blog/blog-3-900x568.jpg" alt="">
+                      <div class="blog-icon d-flex align-items-center justify-content-center">
+                        <a href="image/letest_blog/blog-3-900x568.jpg" data-lightbox="blog" title="click to view full Image">
+                          <i class="fas fa-search-plus fa-1x"></i>
+                        </a>
+                        <a href="#">
+                          <i class="fas fa-link fa-1x"></i>
+                        </a>    
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="card-title">
+                        <a href="#">CardTitle</a>
+                        </div>
+                      <div class="cardtext">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                      </div>
+                    </div>
+  
+                  </div>
+                  
+                </div>
+                <div class="blog-content">
+                  <div class="card rounded m-3">
+                    <div class="blog-img">
+                      <img src="image/letest_blog/blog-2-900x568.jpg" alt="">
+                      <div class="blog-icon d-flex align-items-center justify-content-center">
+                        <a href="image/letest_blog/blog-2-900x568.jpg" data-lightbox="blog" title="click to view full Image">
+                          <i class="fas fa-search-plus fa-1x"></i>
+                        </a>
+                        <a href="#">
+                          <i class="fas fa-link fa-1x"></i>
+                        </a>    
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="card-title">
+                        <a href="#">CardTitle</a>
+                        </div>
+                      <div class="cardtext">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                      </div>
+                    </div>
+  
+                  </div>
+                  
+                </div>
+              </div>
+
+            </div>
+            <div class="top-brands container">
+              <div class="d-flex align-items-center justify-content-between m-3">
+                <h2 class="main-h2">TOP-BRANDS</h2>
+                <div class="brands-arrow"></div>
+              </div>
+              <div class="brands-slick container">
+                <div class="brands-content">
+                  <div>
+                    <img class="brands-img animate__animated" src="image/brands/1-151x77.png" alt="">
+                  </div>
+                  <div>
+                    <img class="brands-img animate__animated" src="image/brands/2-151x77.png" alt="">
+                  </div>
+                  <div>
+                    <img class="brands-img animate__animated" src="image/brands/3-151x77.png" alt="">
+                  </div>
+                  <div>
+                    <img class="brands-img animate__animated" src="image/brands/4-151x77.png" alt="">
+                  </div>
+                  <div>
+                    <img class="brands-img animate__animated" src="image/brands/1-151x77.png" alt="">
+                  </div>
+                  <div>
+                    <img class="brands-img animate__animated" src="image/brands/2-151x77.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <footer class="footer mt-3">
+          <div class="footer-content d-flex flex-column flex-lg-row align-items-lg-start justify-content-lg-between p-3">
+            <div class="footer-list d-flex flex-column">
+              <a class="footer-title d-flex justify-content-between d-lg-none">
+                STORE INFORMATION
+                <i class="fas fa-chevron-down footer-icon"></i>
+              </a>
+              <p class="text-white d-none d-lg-block">STORE INFORMATION</p>
+              <ul class="p-0">
+                <li>Kitchcart - kitchen Store</li>
+                <li>507-Union Trade ipsum Doler Centre
+                  France</li>
+                <li>Call Us: 000-000-0000</li>
+                <li>sales@yourcompany.com</li>
+              </ul>
+              </div>
+            <div class="footer-list d-flex flex-column">
+              <a href="#" class="footer-title  d-flex justify-content-between  d-lg-none">
+                INFORMATION
+                <i class="fas fa-chevron-down footer-icon"></i>
+              </a>
+              <p class="text-white d-none d-lg-block">INFORMATION</p>
+              <ul class="p-0">
+                <li>About Us</li>
+                <li>Delivery Information</li>
+                <li>Privacy Policy</li>
+                <li>Terms & Conditions</li>
+                <li>Site Map</li>
+              </ul>
+            </div>
+            <div class="footer-list d-flex flex-column">
+              <a href="#" class="footer-title d-flex justify-content-between  d-lg-none">
+                EXTRAS
+                <i class="fas fa-chevron-down  footer-icon"></i>
+              </a>
+              <p class="text-white d-none d-lg-block">EXTRAS</p>
+              <ul class="p-0">
+                <li>Brands</li>
+                <li>Gift Certificates</li>
+                <li>Affiliate</li>
+                <li>Specials</li>
+                <li>Contact Us</li>
+              </ul>
+            </div>
+            <div class="footer-list text-white">
+              SUBSCRIBE NOW
+              <p class="Subscribe-li">Subscribe our newsletter get 10% off your first update.</p>
+            </div>
+          </div>
+        </footer>
+        
+
+    </main>
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+</html>
